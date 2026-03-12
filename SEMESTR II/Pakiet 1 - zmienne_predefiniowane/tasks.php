@@ -5,18 +5,28 @@
 Zad. 1
 Dlaczego nie powinno się trzymać hasła w $_GET?
 
+Hasło będzie widać w url
+
 Zad. 2
 Czym różni się $_SESSION od $_COOKIE pod względem bezpieczeństwa?
+
+W sesjach dane są przechowywane na serwerze, a cookie w przegłądarce
 
 Zad. 3
 Co się stanie, jeśli zapomnisz session_start()?
 
+nie można będzie korzystać z zmiennej $_SESSION
+
 Zad. 4
 Dlaczego dane z $_POST trzeba walidować?
+
+Dlatego że walidacja chroni aplikację naprzykład od SQL-injekcji
 
 Zad. 5
 Utwórz plik index.php, który wyświetli tekst:
 Witaj, [imię pobrane z paska adresu].
+
+
 
 Zad. 6
 Użyj tej samej zmiennej predefiniowanej do pobrania
